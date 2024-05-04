@@ -217,7 +217,7 @@ minecraftServer:
   # If true, enable player-vs-player damage.
   pvp: default
   # One of: DEFAULT, FLAT, LARGEBIOMES, AMPLIFIED, CUSTOMIZED
-  levelType: DEFAULT
+  levelType: minecraft:normal
   # When levelType == FLAT or CUSTOMIZED, this can be used to further customize map generation.
   # ref: https://hub.docker.com/r/itzg/minecraft-server/
   generatorSettings:
@@ -240,7 +240,7 @@ minecraftServer:
   # When true, players will be prompted for a response and will be disconnected if they decline the required pack
   resourcePackEnforce: false
   # Check accounts against Minecraft account service.
-  onlineMode: default
+  onlineMode: false
   # Require public key to be signed by Mojang to join
   enforceSecureProfile: default
   # If you adjust this, you may need to adjust resources.requests above to match.
@@ -252,7 +252,7 @@ minecraftServer:
   # By default, the server configuration will be created and set based on the following environment variables, but only the first time the server is started
   # If you would like to override the server configuration each time the container starts up, you can set this to true
   # see https://github.com/itzg/docker-minecraft-server#server-configuration
-  overrideServerProperties: false
+  overrideServerProperties: true
   # DEPRECATED: use top-level rconServiceAnnotations instead
   serviceAnnotations: {}
   serviceType: ClusterIP
