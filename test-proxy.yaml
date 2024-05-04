@@ -265,7 +265,7 @@ podAnnotations: {}
 deploymentAnnotations: {}
 
 serviceAnnotations:
-  "mc-router.itzg.me/externalServerName": "play.capyblock.com"
+  "mc-router.itzg.me/externalServerName": "test.capyblock.com"
 
 rconServiceAnnotations: {}
 
