@@ -163,7 +163,7 @@ minecraftRouter:
   # Minecraft server mappings
   mappings:
     - externalHostname: "test.capyblock.com"
-      host: "test-proxy.test-mc.svc.cluster.local"
+      host: "mc-proxy-minecraft-proxy.test-mc.svc.cluster.local"
       port: 25565
     # - externalHostname: ""
     #   host: ""
